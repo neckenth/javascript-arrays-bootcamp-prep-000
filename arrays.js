@@ -12,10 +12,7 @@ function destructivelyAddElementToBeginningOfArray(a, e) {
     a.unshift(e)
     return a;
 }
-function addElementToEndOfArray(a, e) {
-    const new_array = [a..., e]
-    return new_array;
-}
+
 function destructivelyAddElementToEndOfArray(a, e) {
     a.push(e)
     return a;
