@@ -4,19 +4,19 @@ var chocolateBars = [
     'kitkat',
     'skittles'
 ]
-function addElementToBeginningOfArray(array, element) {
-    const new_array = [element, ...array]
+function addElementToBeginningOfArray(a, e) {
+    const new_array = [e, ...a]
     return new_array;
 }
-function destructivelyAddElementToBeginningOfArray(array, element) {
-    array.unshift(element)
-    return array;
+function destructivelyAddElementToBeginningOfArray(a, e) {
+    a.unshift(e)
+    return a;
 }
-function addElementToEndOfArray(array, element) {
-    const new_array = [array..., element]
+function addElementToEndOfArray(a, e) {
+    const new_array = [a..., e]
     return new_array;
 }
-function destructivelyAddElementToEndOfArray(array, element) {
-    array.push(element)
-    return array;
+function destructivelyAddElementToEndOfArray(a, e) {
+    a.push(e)
+    return a;
 }
