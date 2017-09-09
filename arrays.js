@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 3aba8937d5339cf7ca67cbe512f24a1e53d45603
 var chocolateBars = [
     'snickers',
     'hundred grand',
